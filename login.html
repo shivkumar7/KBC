@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<script type="text/javascript">
+	function demo()
+		{
+			a=document.getElementById("a1").value;
+			b=document.getElementById("b1").value;
+
+			if((a=="abc") && (b=="123"))
+			{
+				window.open("rules.html");
+			}
+			else
+			{
+			window.close("form.html");
+			}
+		}
+</script>
+</head>
+<body bgcolor="gray">
+	<center><h1>WELCOME TO KBC QUIZ </h1></center>
+	<center>
+USERNAME<input type="text" id="a1"><br><br>
+PASSWORD<input type="text" id="b1"><br><br>
+<input type="button" value="click" onclick="demo();"><br><br><br><br>
+</center>
+</body>
+</html>
